@@ -73,4 +73,9 @@ body {
   border-radius: 6px;
   background-color: #1640D6;
   cursor: pointer;
+  transition: all .2s;
+}
+
+.button:hover {
+  background-color: #001B79;
 }
