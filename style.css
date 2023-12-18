@@ -31,6 +31,10 @@ body {
   align-items: center;
 }
 
+.image-content {
+  row-gap: 5px;
+}
+
 .card-image {
   width: 150px;
   height: 150px;
