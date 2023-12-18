@@ -19,8 +19,16 @@ body {
 }
 
 .card {
+  width: 320px;
   border-radius: 25px;
   background-color: #FFF;
+}
+
+.image-content, .card-content { 
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-image {
