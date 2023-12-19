@@ -22,8 +22,9 @@ body {
 }
 
 .slide-content {
-  padding: 45px 20px;
+  /* padding: 45px 20px; */
   margin: 0 40px;
+  border-radius: 25px;
   background-color: red;
   overflow: hidden;
 }
