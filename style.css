@@ -133,10 +133,10 @@ body {
   font-size: 40px;
 }
 
-.swiper-button-next {
-  right: 0;
+.swiper-navBtn-next {
+  right: 0 !important;
 }
 
-.swiper-button-prev {
-  left: 0;
+.swiper-navBtn-prev {
+  left: 0 !important;
 }
