@@ -18,11 +18,14 @@ body {
   max-width: 1120px;
   width: 100%;
   padding: 40px 0;
-  background-color: red;
+  background-color: #EEF5FF;
 }
 
 .slide-content {
+  padding: 45px 20px;
   margin: 0 40px;
+  background-color: red;
+  overflow: hidden;
 }
 
 .card {
