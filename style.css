@@ -46,6 +46,22 @@ body {
   top: 0;
 }
 
+.overlay::before,
+.overlay::after {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background-color: #1640D6;
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+}
+
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+
 .card-image {
   width: 150px;
   height: 150px;
