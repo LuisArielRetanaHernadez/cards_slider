@@ -18,7 +18,7 @@ body {
   max-width: 1120px;
   width: 100%;
   padding: 40px 0 !important;
-  background-color: #EEF5FF;
+  background-color: none;
 }
 
 .slide-content {
@@ -139,4 +139,13 @@ body {
 
 .swiper-navBtn-prev {
   left: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-navBtn {
+    display: none !important;
+  }
 }
