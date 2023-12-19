@@ -118,3 +118,12 @@ body {
 .button:hover {
   background-color: #001B79;
 }
+
+.swiper-navBtn {
+  color: #1640D6;
+  transition: all .3s;
+}
+
+.swiper-navBtn:hover {
+  color: #001B79;
+}
